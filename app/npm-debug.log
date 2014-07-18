@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'Ruby' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink /usr/bin/node
+5 warn package.json pointlessbutton@0.0.0 No description
+6 warn package.json pointlessbutton@0.0.0 No repository field.
+7 warn package.json pointlessbutton@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'Ruby', null ]
+10 verbose cache add name=undefined spec="Ruby" args=["Ruby",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'Ruby',
+11 verbose parsed url   path: 'Ruby',
+11 verbose parsed url   href: 'Ruby' }
+12 silly lockFile b217e98c-Ruby Ruby
+13 verbose lock Ruby /home/tim/.npm/b217e98c-Ruby.lock
+14 silly lockFile b217e98c-Ruby Ruby
+15 silly lockFile b217e98c-Ruby Ruby
+16 verbose addNamed [ 'Ruby', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile ab0ae35b-Ruby Ruby@
+19 verbose lock Ruby@ /home/tim/.npm/ab0ae35b-Ruby.lock
+20 silly addNameRange { name: 'Ruby', range: '*', hasData: false }
+21 verbose url raw Ruby
+22 verbose url resolving [ 'https://registry.npmjs.org/', './Ruby' ]
+23 verbose url resolved https://registry.npmjs.org/Ruby
+24 info trying registry request attempt 1 at 16:28:35
+25 http GET https://registry.npmjs.org/Ruby
+26 http 404 https://registry.npmjs.org/Ruby
+27 verbose headers { date: 'Fri, 18 Jul 2014 14:28:35 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-fra1233-FRA',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1405693715.162908,VS0,VE105',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Fri, 18 Jul 2014 14:28:35 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1405693715.162908,VS0,VE105',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile ab0ae35b-Ruby Ruby@
+30 silly lockFile ab0ae35b-Ruby Ruby@
+31 error 404 404 Not Found: Ruby
+31 error 404
+31 error 404 'Ruby' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'pointlessbutton'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Linux 3.14.0-031400rc2-generic
+33 error command "/usr/bin/node" "/usr/bin/npm" "install" "Ruby"
+34 error cwd /home/tim/Documenten/Playground/pointless-button/app
+35 error node -v v0.10.29
+36 error npm -v 1.4.14
+37 error code E404
+38 verbose exit [ 1, true ]
